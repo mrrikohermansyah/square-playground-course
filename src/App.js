@@ -1,7 +1,9 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
-import Square from './Square.js';
+//import Square from './Square.js';
+//import SimpleSquare from './SimpleSquare.js';
+import Exercisesquare from './excercisesquare.js';
 
 function App() {
   return (
@@ -20,9 +22,9 @@ function App() {
           Learn React
         </a>
       </header>
-      <Square size={50} />       
-      <Square initialColor="green" size={100} />
-      <Square initialColor="red" size={200} />
+      <Exercisesquare color="red" size={50} />       
+      <Exercisesquare initialColor="green" size={100} />
+      <Exercisesquare initialColor="red" size={200} />
     </div>
     //showTItle = {true/false} | you can insert this command after Square above if you want to use boolean
   );
