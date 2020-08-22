@@ -22,5 +22,5 @@ SimpleSquare.propTypes = {
 };
 
 SimpleSquare.defaultProps = {
-    color:'grey'
+    color:'red'
 };

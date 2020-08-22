@@ -54,7 +54,6 @@ export default class Square extends React.Component{
                     </div>
                     <div className="clear" />
                 </div>
-                
           
         );
         //{ this.props.showTitle && <strong>TITLE</strong> } you can use this command if you want to use boolean
